@@ -17,6 +17,7 @@ public class Main {
         new FaxDispatcher(mfd).dispatch("+380372584810", "Лист до ректорату");
         new BookletService(mfd, mfd).makeBooklet("Методичка ЛР7", 12);
 
-        // new FaxDispatcher(laser); // <- не скомпілюється: лазерний принтер не має ролі FaxMachine
+        // new FaxDispatcher(laer); // <- не скомпілюється: лазерний принтер не має ролі
+        // FaxMachine
     }
 }
