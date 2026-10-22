@@ -1,0 +1,5 @@
+out/
+*.class
+scholarship_registry.csv
+.idea/
+*.iml
