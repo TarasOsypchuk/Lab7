@@ -20,7 +20,7 @@ public class Main {
         Square bigger = sq.withSide(10);
         System.out.println("Оригінал: " + sq + ", новий: " + bigger);
 
-        // calc.resizeAndVerifyArea(new Square(5)); // <- не скомпілюється: Square не є Rectangle
+        // calc.resizeAndVerifyArea(new Square(5)); // <- не скомпілюєтя: Square не є Rectangle
 
         // Fail-fast: інваріанти перевіряються в конструкторі
         try {
