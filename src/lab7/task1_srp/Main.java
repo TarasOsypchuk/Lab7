@@ -11,7 +11,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        // Composition root: збираємо оркестратор з окремих сервісів
+        // Composition root: збираємо оркестратор з окремих сервісі
         StudentAcademicRecordService service = new StudentAcademicRecordService(
                 new GpaCalculator(),
                 new ScholarshipPolicy(),

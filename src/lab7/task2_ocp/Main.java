@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         NotificationSender sender = new NotificationSender();
         NotificationMessage msg = new NotificationMessage(
-                "+380501234567", "Розклад", "Пара з КПЗ перенесена на 10:10.", NotificationMessage.Priority.HIGH);
+                "+380501234567", "Розклад", "Пара з КПЗ перенесеа на 10:10.", NotificationMessage.Priority.HIGH);
 
         List<NotificationChannel> channels = List.of(
                 new EmailChannel(), new SmsChannel(), new PushChannel(), new TelegramChannel(),
